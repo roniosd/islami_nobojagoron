@@ -310,7 +310,8 @@ header {
   padding-top: 60px;
 }
 
-.ocation-section .card .date {
+.ocation-section .card .date,
+.activity-box-sec .card .date {
   background: #47be2f;
   width: 89.77px;
   height: 81px;
@@ -318,7 +319,13 @@ header {
   top: 38%;
   left: 10%;
 }
-.ocation-section .card .date p {
+
+.activity-box-sec .card .date {
+  top: 106px;
+  left: 58px;
+}
+.ocation-section .card .date p,
+.activity-box-sec .card .date p {
   border-radius: 5px;
   font-size: 15px;
   font-weight: 500;
@@ -327,9 +334,11 @@ header {
   color: #fff;
   padding-left: 25px;
 }
-.ocation-section .card span {
+.ocation-section .card span,
+.activity-box-sec .card span {
   font-size: 30px;
   font-weight: 600;
+  color: #fff;
 }
 
 /* Foto Gallary */
@@ -364,6 +373,10 @@ header {
   box-shadow: 2px 0px 4px 0px #00000014;
   box-shadow: 0px 0px 6px 0px #00000005;
   margin-bottom: 115px;
+}
+
+.news_section-2 .row .col .card {
+  margin-bottom: 24px;
 }
 .news_section .row .col .card .card-body {
   padding: 15px;
@@ -452,9 +465,9 @@ header {
   border-radius: 8px;
   padding: 20px;
   border: 1px solid #dfdfdf;
-  color: #000;
   font-size: 16px;
   font-weight: 600;
+  color: #000;
 }
 .contact_section .row .main-body .row input::placeholder {
   font-size: 15px;
@@ -482,11 +495,41 @@ header {
   color: #272727;
 }
 
+/* contact-us */
+.contact-us .row .form-label span {
+  color: red;
+}
+
+.contact-us .row .form-label {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: #1e1e1e;
+}
+
+.contact-us .row input {
+  height: 56px;
+}
+.contact-us .row textarea {
+  height: 297px;
+}
+
+.contact-us .row button {
+  background: #018d48;
+  color: #fff;
+  height: 56px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.2px;
+}
+
 /* footer */
 footer {
   margin-top: 115px;
   background: #000;
   height: 408px;
+  border-top: 12px solid #018d48a6;
 }
 footer .container-box {
   top: 25%;
@@ -553,6 +596,266 @@ footer .copyright p {
   padding-top: 30px;
 }
 
+/* About section */
+.top_header {
+  background: #03673c;
+  height: 100px;
+  margin-bottom: 40px;
+}
+.top_header p {
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 63px;
+  text-align: center;
+  color: #d4ffea;
+  padding-top: 20px;
+  text-decoration: none;
+}
+.beforeEffect {
+  margin-left: 90px;
+  height: 397px;
+  border: 1px solid #dbdbdb;
+  position: relative;
+}
+.beforeEffect::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 28px;
+  background: #018d48;
+  top: 10px;
+  left: -1px;
+}
+.about_box_section .links .heder {
+  color: #018d48;
+}
+.about_box_section .links a {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40.2px;
+  text-align: left;
+  color: #1e1e1e;
+  text-decoration: none;
+}
+
+.about_box_section .card {
+  padding-top: 10px;
+  background: #ffffff;
+  box-shadow: 0px 4px 8px 0px #0000000f;
+  box-shadow: 0px 0px 4px 0px #0000000a;
+}
+.about_box_section .card p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.about_box_section .card p span {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.container .heading span {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 42px;
+  text-align: center;
+  color: #018d48;
+}
+.container .heading {
+  height: 42px;
+  padding: 0px 10px 0px 10px;
+  border-radius: 8px;
+  background: #018d480f;
+  margin-bottom: 34px;
+}
+
+.ocation-section-2 {
+  height: 160vh;
+}
+
+.activity-box-sec {
+  margin-top: 10px;
+}
+.activity-box-sec .card h1,
+.card-title {
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 44.2px;
+  text-align: left;
+  color: #131313;
+}
+
+.activity-box-sec .card h5 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  color: #717171;
+  margin-bottom: 17px;
+}
+
+.activity-box-sec p span {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: #2b2b2b;
+}
+
+.donation-details .card p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+}
+.donation-details .card p span {
+  font-weight: 600;
+}
+
+/* .Membership_information_section */
+.Member_information_section .box {
+  border-radius: 8px;
+  border: 1px solid #d8d8d8;
+  padding: 23px 38px 50px 58px;
+}
+.Member_information_section .box-2 {
+  padding-left: 32px;
+}
+.Member_information_section .box h5 {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 54px;
+  text-align: left;
+  color: #018d48;
+}
+.Member_information_section .box p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: #2b2b2b;
+}
+.Member_information_section .box p a {
+  color: #ff9800;
+  font-weight: 500;
+}
+
+.Member_information_section .highlight {
+  background: #f2faf0;
+  border: 1px solid #47be2f;
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 10px;
+  margin-top: 11px;
+}
+.Member_information_section .highlight .row div {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+}
+.Member_information_section .Do_call {
+  height: 63px;
+  border-radius: 8px;
+  border: 1px solid #ffd700;
+  background: #faf9f0;
+  padding: 16px 24px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.valuation p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: #2b2b2b;
+  margin-bottom: 17px;
+}
+.valuation .money_box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.valuation .money_box div {
+  padding: 18px 28px 17px 32px;
+  border-radius: 8px;
+  border: 1px solid #d9d9d9;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  margin-right: 10px;
+  background: #ffffff;
+  margin-bottom: 10px;
+}
+
+.valuation .money_box div:hover {
+  background: #47be2f;
+  color: #fff;
+}
+
+.form-check .form-check-input:checked {
+  background-color: #4caf50;
+  border-color: #4caf50;
+}
+.form-check .form-check-input {
+  width: 20px;
+  height: 20px;
+}
+
+.form-check .form-check-label {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: #2b2b2b;
+  margin-left: 3px;
+}
+.donate-btnSection input {
+  width: 391px;
+}
+.donate-btnSection label {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+}
+.donate-btnSection button {
+  background: #018d48;
+  padding: 10px 16px;
+  color: #fff;
+  margin-top: 23px;
+  margin-left: 440px;
+}
+
+/* img_gallary-section */
+
+.img_gallary-section .container p {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 42px;
+  text-align: left;
+  color: #1e1e1e;
+}
+.grid-container-all .grid-containers img {
+  width: 441.94px;
+  height: 348px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.grid-container-all .grid-containers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.bg-color {
+  background: #f5fcf8;
+}
+
 @media (max-width: 1300px) {
   .navbar {
     height: 56px;
@@ -609,6 +912,13 @@ footer .copyright p {
   }
   footer .container-box {
     left: 5%;
+  }
+
+  .ocation-section-2 {
+    height: 2350px;
+  }
+  .donate-btnSection button {
+    margin-left: 350px;
   }
 }
 
@@ -682,10 +992,6 @@ footer .copyright p {
 }
 
 @media (max-width: 768px) {
-  .header_bnts {
-    margin-left: 50%;
-  }
-
   .hero-box {
     z-index: 10;
     top: 73%;
@@ -739,6 +1045,24 @@ footer .copyright p {
     padding: 0;
     margin: 0;
   }
+  .ocation-section-2 {
+    height: 360vh;
+  }
+  .beforeEffect {
+    display: none;
+  }
+
+  footer .container-box .row {
+    width: 100%;
+  }
+
+  .activity-box-sec .card .date {
+    top: 150px;
+  }
+
+  .donate-btnSection button {
+    margin-left: 495px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -746,21 +1070,26 @@ footer .copyright p {
     margin-left: 0px;
   }
 
-  .hero-box {
-    top: 100%;
-    left: 10px;
-    display: none;
-    opacity: 0;
-    height: 0;
-    overflow: hidden;
-    transition: opacity 5s ease, height 0.5s ease;
+  .hero-section {
+    background: #000;
+    width: 100%;
   }
 
-  .hero-box.show {
+  .hero-box {
+    top: 115%;
+    left: 10px;
+    width: 95%;
+    height: 40vh;
+  }
+  .hero-box .row {
     width: 100%;
-    display: block;
-    opacity: 1;
-    height: 90vh;
+  }
+
+  .logo_container .org_name span {
+    font-size: 12.84px;
+  }
+  .about_section {
+    margin-top: 460px;
   }
 
   .hero-box .row select,
@@ -850,8 +1179,63 @@ footer .copyright p {
     margin-left: 10px;
     margin-top: 50px;
   }
-}
 
+  .beforeEffect {
+    display: none;
+  }
+  .ocation-section-2 {
+    height: 4000px;
+  }
+
+  footer .container-box .col {
+    width: 250px;
+  }
+
+  .activity-box-sec .card .date {
+    width: 60px;
+    height: 60px;
+    top: 265px;
+  }
+  .activity-box-sec .card .date p {
+    font-size: 12px;
+    margin: 0;
+    padding-left: 20px;
+  }
+  .about_box_section .card p span {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .donate-btnSection button {
+    margin-left: 90px;
+  }
+  .valuation .money_box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .Member_information_section .box p {
+    font-size: 15px;
+  }
+  .donate-btnSection label {
+    font-size: 12px;
+  }
+  .donate-btnSection input {
+    width: 150px;
+  }
+  .contact-us .contact-map {
+    margin-top: 100px;
+  }
+  .activity_section .card {
+    height: 550px;
+    margin-bottom: 30px;
+  }
+  .contact_section .row .col img {
+    height: 300px;
+  }
+  .contact_section .row .main-body .row input {
+    margin-bottom: 10px;
+  }
+}
 @media (max-width: 375px) {
   .navbar-nav .nav-item {
     width: 100%;
