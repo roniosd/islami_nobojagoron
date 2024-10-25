@@ -1235,6 +1235,9 @@ footer .copyright p {
   .contact_section .row .main-body .row input {
     margin-bottom: 10px;
   }
+    .contact_section {
+    height: 1000px;
+  }
 }
 @media (max-width: 375px) {
   .navbar-nav .nav-item {
