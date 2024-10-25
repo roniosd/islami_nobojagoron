@@ -1238,6 +1238,14 @@ footer .copyright p {
     .contact_section {
     height: 1000px;
   }
+   .grid-container-all .grid-containers img {
+    width: 350.94px;
+    height: 248px;
+
+  }
+  .grid-container-all .grid-containers {
+    grid-template-columns: 1fr;
+  }
 }
 @media (max-width: 375px) {
   .navbar-nav .nav-item {
